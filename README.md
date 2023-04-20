@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![Logo](https://nextjs-styled-components-starter.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnext-styled.d91949e1.png&w=1920&q=75)
 
-First, run the development server:
+# Next.js & styled-components Starter Template
+
+This starter template is built with [Next.js](https://nextjs.org/) and [styled-components](https://styled-components.com/).
+    
+
+![Screen](https://nextjs-styled-components-starter.vercel.app/starter.webp)
+
+Here is the Demo on [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([nextjs-styled-components-starter)](https://nextjs-styled-components-starter.vercel.app/).
+
+## This starter includes:
+
+- styled-components and Babel config
+    - Theme provider
+- With and without layouts pages
+- Custom navbar component
+- Some shared components
+    - Button
+    - Layout
+- Svg icon file structure
+- Custom fonts setup
+
+## Aim
+The aim of the template is to provide a starting point for building a Next.js project with some commonly used features and configurations already set up.
+## One-click Deploy
+
+You can deploy this template to Vercel with the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnurullahkilic%2Fnextjs-styled-components-starter)
+
+You can also clone & create this repo locally with the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npx create-next-app next-starter --example "https://github.com/nurullahkilic/nextjs-styled-components-starter"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Setup
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Make sure to install the dependencies:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+# yarn
+yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# npm
+npm install
 
-## Learn More
+# pnpm
+pnpm install --shamefully-hoist
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Update your name in `package.json`.
+2. Just install the dependencies.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Nurullah Kılıç ([@nurullahkilic)](https://www.linkedin.com/in/nurullah-kılıç-3b90161b4/)
